@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fynd</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="birthday-card">
+        <div class="card-header">MON</div>
+        <div class="card-body" id="MON">
+          <div class="no-data">
+            No Birthday
+          </div>
+        </div>
+      </div>
+      <div class="birthday-card">
+        <div class="card-header">TUE</div>
+        <div class="card-body" id="TUE">
+          <div class="no-data">
+            No Birthday
+          </div>
+        </div>
+      </div>
+      <div class="birthday-card">
+        <div class="card-header">WED</div>
+        <div class="card-body" id="WED">
+          <div class="no-data">
+            No Birthday
+          </div>
+        </div>
+      </div>
+      <div class="birthday-card">
+        <div class="card-header">THU</div>
+        <div class="card-body" id="THU">
+          <div class="no-data">
+            No Birthday
+          </div>
+        </div>
+      </div>
+      <div class="birthday-card">
+        <div class="card-header">FRI</div>
+        <div class="card-body" id="FRI">
+          <div class="no-data">
+            No Birthday
+          </div>
+        </div>
+      </div>
+      <div class="birthday-card">
+        <div class="card-header">SAT</div>
+        <div class="card-body" id="SAT">
+          <div class="no-data">
+            No Birthday
+          </div>
+        </div>
+      </div>
+      <div class="birthday-card">
+        <div class="card-header">SUN</div>
+        <div class="card-body" id="SUN">
+          <div class="no-data">
+            No Birthday
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="filter-container">
+      <div style="width: 60%;">
+        <textarea
+          class="text-area"
+          name="w3review"
+          rows="4"
+          cols="50"
+          id="textArea"
+        >
+        </textarea>
+      </div>
+      <div>
+        <p>Year</p>
+        <input
+          id="inputDate"
+          style="display: block; padding: 5px 0px; margin: 10px 0px;"
+        />
+        <button
+          onclick="filterBirthday()"
+          style="
+            padding: 15px 35px;
+            background-color: #0186ef;
+            color: #dcdbf9;
+            border: none;
+            font-weight: bold;
+            border-radius: 3px;
+          "
+        >
+          UPDATE
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

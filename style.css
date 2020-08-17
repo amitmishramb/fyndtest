@@ -1,0 +1,63 @@
+body {
+  margin: 50px;
+  background-color: #eaf0f2;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.container > .birthday-card {
+  margin: 10px;
+}
+
+.birthday-card {
+  border: 1px solid #d1d7d9;
+  border-radius: 6px;
+  width: 180px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.card-header {
+  background-color: #ad9df0;
+  padding: 9px 10px;
+  color: #dcdbf9;
+  text-align: right;
+}
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: baseline;
+  min-height: 20vh;
+}
+.card-body-item {
+  min-height: 33.33%;
+  min-width: 33.33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-container {
+  display: flex;
+  margin-top: 80px;
+}
+
+.text-area {
+  resize: none;
+  width: 90%;
+  border: 1px solid #d1d7d9;
+
+  height: 40vh;
+}
+
+.no-data {
+  background-color: #dee4e6;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
